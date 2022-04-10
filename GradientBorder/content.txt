@@ -1,0 +1,9 @@
+background:linear-gradient(to right, #56ccf2, #2f80ed);
+background:linear-gradient(to right, #f2994a, #f2c94c);
+background:linear-gradient(to right, #dce35b, #45b649);
+
+ ---------- 
+ Google font
+ ----------
+ <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+ font-family: 'Poppins', sans-serif;
