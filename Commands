@@ -1,0 +1,3 @@
+#to open jupyter notebook in other drive say D drive or F drive type the following code in anaconda prompt
+jupyter notebook --notebook-dir=NameOfTheDrive:
+As Example for Drive D, jupyter notebook --notebook-dir=D:
