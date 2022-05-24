@@ -14,3 +14,9 @@ As Example for Drive D, jupyter notebook --notebook-dir=D:
   C:\Users\Nitish\anaconda3\Library\bin\graphviz
   
 7) Once the path is added restart the system 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# To run the streamlit app make use of the code = streamlit run <File name>.py
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
