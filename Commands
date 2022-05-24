@@ -1,3 +1,16 @@
 #to open jupyter notebook in other drive say D drive or F drive type the following code in anaconda prompt
 jupyter notebook --notebook-dir=NameOfTheDrive:
 As Example for Drive D, jupyter notebook --notebook-dir=D:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#Incase Graphviz file doesn't work do the following steps
+1) pip install graphviz 
+2) conda install graphviz
+3) conda install -c conda-forge pydotplus
+4) Set the invironment path variable
+5) Go to Control Panel> System and Security> System>Advanced System Settings>Environment
+6) Add the Graphiz installed location. In my case the path is 
+  C:\Users\Nitish\anaconda3\Library\bin\graphviz
+  
+7) Once the path is added restart the system 
