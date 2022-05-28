@@ -20,3 +20,4 @@ As Example for Drive D, jupyter notebook --notebook-dir=D:
 # To run the streamlit app make use of the code = streamlit run <File name>.py
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#To open phpmyadmin type the following : http://localhost/phpmyadmin
