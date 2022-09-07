@@ -42,3 +42,7 @@ In the toolbar, select the device that you want to run your app on from the targ
 Click Run .
 
 Android Studio installs your app on your connected device and starts it. You now see "Hello, World!" displayed in the app on your device.
+
+
+# For implementing the latest font awesome cdn u have to the followng codes for it to work properly
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
