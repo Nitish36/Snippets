@@ -52,3 +52,9 @@ Android Studio installs your app on your connected device and starts it. You now
 # Datasets Links
 https://data.world/markbradbourne/rwfd-real-world-fake-data
 https://www.kaggle.com/
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+To install jupyter in ubuntu
+pip install jupyter
+pip install notebook
+jupyter notebook
