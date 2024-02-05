@@ -58,3 +58,10 @@ To install jupyter in ubuntu
 pip install jupyter
 pip install notebook
 jupyter notebook
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Incase MySQL workbench stops working
+1)Goto services in task manager
+2)start the service called MySQL80
+3)estart workbench
