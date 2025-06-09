@@ -65,3 +65,10 @@ Incase MySQL workbench stops working
 1)Goto services in task manager
 2)start the service called MySQL80
 3)estart workbench
+
+--------------------------------------------------------------------------------------------------------------------------
+To read data from google drive csv file follow the steps below
+ # Link= https://drive.google.com/file/d/1OFOfdas3mWOZiz8paFaWcRF9JCxOADpj/view?usp=sharing
+url = "https://drive.google.com/uc?export=download&id=1OFOfdas3mWOZiz8paFaWcRF9JCxOADpj"
+dataset = pd.read_csv(url)
+
