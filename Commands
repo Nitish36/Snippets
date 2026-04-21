@@ -23,27 +23,6 @@ As Example for Drive D, jupyter notebook --notebook-dir=D:
 #To open phpmyadmin type the following : http://localhost/phpmyadmin
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-#How to run apps from android studio to a real device
-
-Run your app
-Connect your device to your development machine with a USB cable. If you developed on Windows, you might need to install the appropriate USB driver for your device.
-Perform the following steps to enable USB debugging in the Developer options window:
-Open the Settings app.
-If your device uses Android v8.0 or higher, select System. Otherwise, proceed to the next step.
-Scroll to the bottom and select About phone.
-Scroll to the bottom and tap Build number seven times.
-Return to the previous screen, scroll to the bottom, and tap Developer options.
-In the Developer options window, scroll down to find and enable USB debugging.
-Run the app on your device as follows:
-
-In Android Studio, select your app from the run/debug configurations drop-down menu in the toolbar.
-In the toolbar, select the device that you want to run your app on from the target device drop-down menu.
-Click Run .
-
-Android Studio installs your app on your connected device and starts it. You now see "Hello, World!" displayed in the app on your device.
-
-
 # For implementing the latest font awesome cdn u have to the followng codes for it to work properly
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -71,4 +50,7 @@ To read data from google drive csv file follow the steps below
  # Link= https://drive.google.com/file/d/1OFOfdas3mWOZiz8paFaWcRF9JCxOADpj/view?usp=sharing
 url = "https://drive.google.com/uc?export=download&id=1OFOfdas3mWOZiz8paFaWcRF9JCxOADpj"
 dataset = pd.read_csv(url)
+
+---------------------------------------------------------------------------------------------------------------------------
+python -c "from cryptography.fernet import Fernet; print(Fernet.generate_key().decode())"
 
